@@ -5,7 +5,7 @@ class DataLoader:
     def __init__(self, filepath):
         self.filepath = filepath
 
-    def load_data(self, filepath):
+    def load_data(self):
         if not os.path.exists(self.filepath):
             print(f"File {self.filepath} does not exist.")
             return None
